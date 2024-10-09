@@ -263,7 +263,7 @@ def create_labeled_image(image_path, geo_coords, tile_size, min_index):
 
 
 
-image_path = "/content/WhatsApp Image 2024-10-07 at 6.01.18 PM.jpeg"
+image_path = "test_img.jpeg"
 image = Image.open(image_path)
 # if image width > 1920 resize it as the model will take longer time and my be you face ou of memory error
 if image.width > 1920:
